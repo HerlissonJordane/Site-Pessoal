@@ -1,0 +1,167 @@
+body{
+    background-color: #3a3d3d;
+    color: white;
+    font-size: 17px;
+}
+body p{
+    font-size: 20px;
+}
+.nav li{
+    font-size: 22px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+}
+.nav li:hover{
+    background-color: rgb(143, 143, 143);
+    transition: 0.5s;
+}
+
+h1{
+    font-size:50px;
+    text-align: right;
+    background-image:url(fundo.png);
+    width: 100%;
+    padding: 70px;
+    box-sizing: border-box;
+    border:6px solid black;
+    margin-top: 0;
+}
+#texto-menu{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-size: 25px;
+    vertical-align: middle;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 6px;
+}
+h2{
+    font-size: 40px;
+    margin-top: 40px;
+}
+p{
+    text-indent: 50px;
+    text-align: justify;
+}
+.corpo{
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+    margin-right: 100px;
+    line-height: 1.5;
+    clear: both;
+
+}
+.foto{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.contato li{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #dfe8e7;
+    color: black;
+    display: block;
+}
+.contato li:hover{
+    background-color: rgb(143, 143, 143);
+    transition: 0.5s;
+}
+.contato li a {
+    color: black;
+    text-decoration: none;
+}
+.contato{
+    display: block;
+}
+
+footer{
+    clear: both;
+    padding:10px;
+    background-color: #dfe8e7;
+    width:100%;
+    color: black;
+
+}
+body a {
+    color:rgb(106, 127, 241);
+    text-decoration: none;
+    
+}
+/*BLOCO DE @MEDIA*/
+@media(min-width:360px){
+    .titulo{
+        text-align: center;
+    }
+    .foto{
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .contato{
+        text-align: center;
+    }
+    .corpo h2{
+        font-size: 30px;
+        text-align: center;
+        text-decoration: underline;
+        padding-top: 0px;
+    }
+    .corpo p{
+        text-indent: 28px;
+        font-size: 18px;
+    }
+    .navbar{
+        margin-bottom: 5px;
+    }
+    .nav li{
+        display: grid;
+    }
+}
+@media(min-width:768px){
+    #texto-menu{
+        display: none;
+        text-shadow: none;
+        text-decoration: none;
+    }
+    .navbar-nav{
+        width: 100%;
+        text-align: center;
+        
+    }
+}
+@media(min-width:1024px){
+    .titulo{
+        width: 100%;
+    }
+    #texto-menu{
+        display: inline;
+    }
+    .nav li{
+        
+        font-size: 30px;
+        color: black;
+        padding: 5px;
+    }
+    .foto{
+        max-width: 70%;
+         max-height: 70%;
+    }
+    .navbar .container{
+        width: 100%;       
+        padding-bottom: 20px;
+    }
+
+}
+
+.navbar-header{
+    background-color: #b7bec7;
+    border: 2px solid black;
+    border-radius: 20px;
+}
